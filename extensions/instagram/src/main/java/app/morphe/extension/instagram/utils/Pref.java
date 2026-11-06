@@ -132,6 +132,10 @@ public class Pref {
         return SharedPref.getBooleanPref(Settings.DISABLE_VIDEO_AUTOPLAY);
     }
 
+    public static boolean highPerformanceMode() {
+        return SharedPref.getBooleanPref(Settings.HIGH_PERFORMANCE_MODE);
+    }
+
     public
     static boolean disableStories() {
         return SharedPref.getBooleanPref(Settings.DISABLE_STORIES);
