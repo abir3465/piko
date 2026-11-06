@@ -717,6 +717,15 @@ public class ScreenBuilder {
                     )
             );
         }
+        if (SettingsStatus.highPerformanceMode) {
+            addPreference(
+                    helper.switchPreference(
+                            str("piko_high_performance_mode"),
+                            str("piko_high_performance_mode_desc"),
+                            Settings.HIGH_PERFORMANCE_MODE
+                    )
+            );
+        }
     }
 
     public void buildInstantsSection() {
