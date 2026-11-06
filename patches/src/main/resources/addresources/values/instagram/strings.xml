@@ -149,6 +149,8 @@
     <string name="piko_copied">Copied</string>
     <string name="piko_more_profile_options">More profile options</string>
     <string name="piko_remove_empty_bottom_space">Remove empty bottom space</string>
+    <string name="piko_high_performance_mode">High performance mode</string>
+    <string name="piko_high_performance_mode_desc">Keeps the app at 60 Hz for the smoothest motion. Uses more battery; Android may lower it when the phone is hot or the battery saver is on</string>
     <string name="piko_inbox_lock">Inbox lock</string>
     <string name="piko_inbox_lock_desc">Hides your inbox behind your fingerprint, face or screen lock every time you open the app</string>
     <string name="piko_inbox_lock_notifications">Block notifications</string>
